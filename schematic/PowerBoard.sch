@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:PowerBoard-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -31,8 +32,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:pam
 LIBS:PowerBoard-cache
-LIBS:motherboard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -385,21 +386,21 @@ F 3 "" H 9150 5800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9150 5400 9500 5400
-Text GLabel 9050 4850 2    60   Input ~ 0
+Text GLabel 9050 4900 2    60   Input ~ 0
 LineDeploymentDevice
 $Comp
 L +5V #PWR013
 U 1 1 5B353A83
-P 9050 4750
-F 0 "#PWR013" H 9050 4600 50  0001 C CNN
-F 1 "+5V" H 9050 4890 50  0000 C CNN
-F 2 "" H 9050 4750 50  0001 C CNN
-F 3 "" H 9050 4750 50  0001 C CNN
-	1    9050 4750
+P 9050 4800
+F 0 "#PWR013" H 9050 4650 50  0001 C CNN
+F 1 "+5V" H 9050 4940 50  0000 C CNN
+F 2 "" H 9050 4800 50  0001 C CNN
+F 3 "" H 9050 4800 50  0001 C CNN
+	1    9050 4800
 	0    1    1    0   
 $EndComp
 $Comp
-L Conn_01x02 J1
+L CONN_01X02 J1
 U 1 1 5B353D06
 P 8850 4850
 F 0 "J1" H 8850 4950 50  0000 C CNN
